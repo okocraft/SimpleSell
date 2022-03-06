@@ -1,0 +1,14 @@
+name: SimpleSell
+main: net.okocraft.simplesell.internal.SimpleSellPlugin
+version: ${project.version}
+author: Siroshun09
+api-version: 1.18
+depend: [ Vault ]
+commands:
+  simplesell:
+    aliases: [ "sell" ]
+permissions:
+  simplesell.command:
+    default: true
+  simplesell.reload:
+    default: op

@@ -1,0 +1,15 @@
+simplesell:
+  message:
+    no-permission: "権限がありません: {0}"
+    only-player: "このコマンドはプレイヤーのみ実行できます。再読み込みするには /sell reload を実行してください。"
+    reload-success: "config.yml と言語ファイルを再読み込みしました。"
+    reload-failure: "再読み込みに失敗しました。コンソールを確認してください。"
+    sold: "{0} で売却しました! {1} して詳細を確認できます。"
+    hover-to-show-receipt: "[ここをホバー]"
+    receipt-format: "{0}x{1} - {2}"
+    return-items: "売却されなかったアイテムはインベントリに戻されます。満杯の場合はその場にドロップします。"
+  menu:
+    title: "アイテム売却"
+    sell-button:
+      display-name: "クリックして売却する ({0})"
+      lore-format: "{0}x{1} - {2}"
