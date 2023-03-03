@@ -6,7 +6,7 @@
 
     <groupId>net.okocraft.simplesell</groupId>
     <artifactId>simplesell</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>SimpleSell</name>
     <url>https://github.com/okocraft/SimpleSell</url>
@@ -67,7 +67,7 @@
         <dependency>
             <groupId>com.github.MilkBowl</groupId>
             <artifactId>VaultAPI</artifactId>
-            <version>1.7</version>
+            <version>1.7.1</version>
             <scope>provided</scope>
             <exclusions>
                 <exclusion>
@@ -79,13 +79,13 @@
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
-            <version>23.0.0</version>
+            <version>24.0.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.github.siroshun09.configapi</groupId>
             <artifactId>configapi-yaml</artifactId>
-            <version>4.6.0</version>
+            <version>4.6.2</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -126,7 +126,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.11.0</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
@@ -136,7 +136,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.2.2</version>
+                <version>3.3.0</version>
                 <configuration>
                     <finalName>${project.name}-${project.version}-original</finalName>
                 </configuration>
@@ -144,7 +144,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.3.1-SNAPSHOT</version>
+                <version>3.4.1</version>
                 <configuration>
                     <finalName>${project.name}-${project.version}</finalName>
                     <filters>
