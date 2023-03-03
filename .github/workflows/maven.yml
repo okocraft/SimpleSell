@@ -6,9 +6,3 @@ jobs:
     uses: okocraft/workflows/.github/workflows/maven.yml@v1
     with:
       java-version: '17'
-  deploy:
-    needs: [ build ]
-    if: ${{ github.repository == 'okocraft/SimpleSell' && github.ref == 'refs/heads/master' }}
-    uses: okocraft/workflows/.github/workflows/maven-gh-pkg-deployment.yml@v1
-    with:
-      java-version: '17'
